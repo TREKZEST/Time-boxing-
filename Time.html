@@ -1,0 +1,213 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Time Box</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: pink;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: yellow;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: blue;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .input-field {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid red;
+            border-radius: 3px;
+            margin-bottom: 10px;
+        }
+
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        .table th,
+        .table td {
+            padding: 10px;
+            border: 1px solid blue;
+            text-align: left;
+        }
+
+        .table th {
+            background-color: gray;
+            font-weight: bold;
+        }
+
+        .table td input {
+            width: 100%;
+            padding: 5px;
+            border: none;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Daily Time Box</h1>
+
+        <div class="section">
+            <div class="section-title">Date:</div>
+            <input type="date" class="input-field" id="dateInput">
+        </div>
+
+        <div class="section">
+            <div class="section-title">Top 3 Priorities:</div>
+            <textarea class="input-field" id="prioritiesInput" placeholder="Enter your top 3 priorities for the day"></textarea>
+           <textarea class="input-field" id="prioritiesInput" placeholder="Enter your top 3 priorities for the day"></textarea>
+           <textarea class="input-field" id="prioritiesInput" placeholder="Enter your top 3 priorities for the day"></textarea>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Goals for Today:</div>
+            <textarea class="input-field" id="goalsInput" placeholder="List your goals for the day"></textarea>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Schedule:</div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Task</th>
+                        <th>Notes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>5:00 AM</td>
+                        <td><input type="text" class="input-field"></td>
+                        <td><input type="text" class="input-field"></td>
+                    </tr>
+                    <tr>
+                        <td>6:00 AM</td>
+                        <td><input type="text" class="input-field"></td>
+                        <td><input type="text" class="input-field"></td>
+                    </tr>
+                    <tr>
+                        <td>7:00 AM</td>
+                        <td><input type="text" class="input-field"></td>
+                        <td><input type="text" class="input-field"></td>
+                    </tr>
+                    <tr>
+                        <td>8:00 AM</td>
+                        <td><input type="text" class="input-field"></td>
+                        <td><input type="text" class="input-field"></td>
+                    </tr>
+                    <tr>
+                        <td>9:00 AM</td>
+                        <td><input type="text" class="input-field"></td>
+                        <td><input type="text" class="input-field"></td>
+                    </tr>
+                    <tr>
+                        <td>10:00 AM</td>
+                        <td><input type="text" class="input-field"></td>
+                        <td><input type="text" class="input-field"></td>
+                    </tr>
+                    <tr>
+                        <td>11:00 AM</td>
+                        <td><input type="text" class="input-field"></td>
+                        <td><input type="text" class="input-field"></td>
+                    </tr>
+                    <tr>
+                        <td>12:00 PM</td>
+                        <td><input type="text" class="input-field"></td>
+                        <td><input type="text" class="input-field"></td>
+                    </tr>
+                    <tr>
+                        <td>1:00 PM</td>
+                        <td><input type="text" class="input-field"></td>
+                        <td><input type="text" class="input-field"></td>
+                    </tr>
+                    <tr>
+                        <td>2:00 PM</td>
+                        <td><input type="text" class="input-field"></td>
+                        <td><input type="text" class="input-field"></td>
+                    </tr>
+                    <tr>
+                        <td>3:00 PM</td>
+                        <td><input type="text" class="input-field"></td>
+                        <td><input type="text" class="input-field"></td>
+                    </tr>
+                    <tr>
+                        <td>4:00 PM</td>
+                        <td><input type="text" class="input-field"></td>
+                        <td><input type="text" class="input-field"></td>
+                    </tr>
+                    <tr>
+                        <td>5:00 PM</td>
+                        <td><input type="text" class="input-field"></td>
+                        <td><input type="text" class="input-field"></td>
+                    </tr>
+                    <tr>
+                        <td>6:00 PM</td>
+                        <td><input type="text" class="input-field"></td>
+                        <td><input type="text" class="input-field"></td>
+                    </tr>
+                    <tr>
+                        <td>7:00 PM</td>
+                        <td><input type="text" class="input-field"></td>
+                        <td><input type="text" class="input-field"></td>
+                    </tr>
+                    <tr>
+                        <td>8:00 PM</td>
+                        <td><input type="text" class="input-field"></td>
+                        <td><input type="text" class="input-field"></td>
+                    </tr>
+                    <tr>
+                        <td>9:00 PM</td>
+                        <td><input type="text" class="input-field"></td>
+                        <td><input type="text" class="input-field"></td>
+                    </tr>
+                    <tr>
+                        <td>10:00 PM</td>
+                        <td><input type="text" class="input-field"></td>
+                        <td><input type="text" class="input-field"></td>
+                    </tr>
+             
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Tasks Dump:</div>
+            <textarea class="input-field" id="tasksInput" placeholder="List any tasks you need to remember"></textarea>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Notes/ Reminders:</div>
+            <textarea class="input-field" id="notesInput" placeholder="Write down any notes or reminders for the day"></textarea>
+        </div>
+    </div>
+</body>
+</html>
